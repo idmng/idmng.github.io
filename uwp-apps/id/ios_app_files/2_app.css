@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+
+/* 11_reset.css start ----------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+section,nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height:130%;
+	vertical-align: baseline;
+	background: transparent;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+ 
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+ 
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+ 
+/* tables still need 'cellspacing=&quot;0&quot;' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clear0{
+	height:0;
+	margin:0;
+	padding:0;
+	font-size:0.01em;
+	line-height:0;
+	clear:both;
+}
+
+div#test {
+	overflow : hidden;
+}
+
+/* 11_reset.css end ------------------------------------------------------- */
+
+
+
+* {
+	word-wrap : break-word;
+	-webkit-tap-highlight-color : rgba(0,0,0,0);
+	-webkit-text-size-adjust : none;
+}
+body {background-color:white;color:#323232;font-size:10px;font-family: Verdana,"游ゴシック",YuGothic,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;}
+#contents {padding:0 10px;overflow-x : hidden;}
+p,dl,ol {line-height:1.5;}	/*131002追記*/
+
+/* heading */
+h1 {height:65px;font-size:130%;color:#505050;font-weight:bold;margin-bottom:20px;}
+h1.privacy {display:table;width:100%;margin-left:0;margin-right:0;background:url(https://id.smt.docomo.ne.jp/img/h1_privacy.png) no-repeat left top,url(https://id.smt.docomo.ne.jp/img/h1_bg.png) repeat-x;}	/*131002追記*/
+h1.privacy span {display:table-cell;vertical-align:middle;height:100%;padding:0 15px 0 105px;}
+
+display:table-cell;vertical-align: middle;
+
+/* download */
+#app_header {}
+#appData {}
+#appNameData {}
+#appName {font-size:240%;font-weight:bold;padding-bottom:18px;color:#323232;margin-bottom:9px;border-bottom:1px solid #ededed;}
+#company {color:#646464;font-size:130%;margin-bottom:10px;}
+#icon {width:148px;height:148px;text-align:center;padding:6px 7px 12px;display:table-cell;vertical-align:middle;font-size:0px;position:relative;left:-5px;}
+#division4 {padding-bottom:10px;border:1px solid #b6b9bb;margin:0 15px 30px;background:#fafafa url(https://id.smt.docomo.ne.jp/img/divbottom.png) repeat-x left bottom;position:relative;}
+#division4 h3 {border-bottom:1px solid #b6b9bb;font-size:135%;font-weight:normal;color:#646464;padding:15px 23px 12px 15px;box-shadow:0px 0px 11px rgba(20,30,40,0.5);-webkit-box-shadow:0px 0px 11px rgba(20,30,40,0.5); line-height:1.5;}	/*131002追記 line-height*/
+#division3 {padding-bottom:15px;border:1px solid #b6b9bb;background:#fafafa url(https://id.smt.docomo.ne.jp/img/divbottom.png) repeat-x left bottom;position:relative;margin-bottom:30px;}
+#vup {border-bottom:1px solid #b6b9bb;font-size:270%;font-weight:normal;color:#646464;padding:15px 23px 12px 23px;box-shadow:0px 0px 11px rgba(20,30,40,0.5);-webkit-box-shadow:0px 0px 11px rgba(20,30,40,0.5);}
+.app_info h4 {color:#505050;font-size:300%;font-weight:bold;padding:0 27px;margin-bottom:23px;}
+#appPolicyMsg {padding:21px 15px;color:#323232;font-size:140%;line-height:1.2;}
+div#lImg {
+	top: 0;
+	left: 0;
+	position : fixed;
+	z-index : 11;
+	background-color : #000;
+}
+div#lImg img {
+	display : block;
+	z-index : 12;
+}
+#blocker1 {
+	display : none;
+	position : fixed;
+	width : 100%;
+	height : 100%;
+	z-index : 21;
+	opacity : 0;
+	background-color : #000;
+}
+
+.appName {font-size:320%;color:#231815;font-weight:bold;width:85%;line-height:1.2;margin-bottom:10px;}
+.company {font-size:195%;color:#646464;margin-bottom:5px;width:85%;}
+
+
+
+/* landscape */
+@media screen and (orientation: landscape) {
+
+	/* download */
+	#appData {position:relative;}
+
+	/* install */
+	#app_header {position:relative;}
+}
+
+/*アプリケーション・プライバシーポリシー*/
+.app {line-height: 1.5; color: #323232; font-size:140%; margin: 0 15px 0.8em;}
+.indent1 {margin-left: 1em;}
+.indent3 {margin-left: 3em;}
+.p-mb {margin-bottom: 0.8em;}

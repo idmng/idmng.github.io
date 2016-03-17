@@ -1,0 +1,14 @@
+{
+"applinks":{
+"apps":[],
+"details":[
+   {
+	"appID": "J349XY2U25.com.nttdocomo.sample.ultest",
+	"paths": ["/ios-apps/sample/*/", "/ios-apps/ultest-week3/"]
+   }
+]
+},
+"webcredentials":{
+"apps": ["J349XY2U25.com.nttdocomo.sample.ultest"]
+}
+}

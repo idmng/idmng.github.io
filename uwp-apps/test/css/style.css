@@ -1,0 +1,37 @@
+@charset "utf-8";
+* { word-wrap: break-word; word-break: break-word; -webkit-tap-highlight-color: rgba(0, 0, 0, 0.25); -webkit-text-size-adjust: 100%; }
+
+html, body { height: 100%; }
+html { min-width: 320px; font-size: 62.5%; /*10px*/ }
+
+body { margin: 0; padding: 0; line-height: 1.5; font-size: 14px; font-size: 1.4rem; font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic ProN","Helvetica",sans-serif; }
+
+/* リンク */
+a{ text-decoration: none }
+a:link { color: #3486d0 } 
+a:visited { color: #3486d0 } 
+a:hover { color: #3486d0 } 
+a:active { color: #3486d0 }
+
+#wrapper { margin: 5px 15px 20px 15px;}
+
+#contents { width: 100%; background-color: #FFF; max-width: 767px; margin: 0 auto 32px auto}
+
+.detailNormal .app_info { width: 100%; background-color: #FFF; max-width: 767px; }
+.detailNormal .app_info { margin: 5px auto; }
+
+p, dl { font-size: 14px; font-size: 1.4rem; line-height: 1.5; }
+p#link { padding-top: 15px }
+p#large { padding: 15px 0 }
+
+.clearfix { min-height: 1px; }
+.clearfix:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+.clear0 { height: 0; margin: 0; padding: 0; font-size: 0.01em; line-height: 0; clear: both; }
+
+h2#title { font-size: 1.8rem; font-weight: bold; color: #323232; padding-bottom: 15px; }
+h2#title:before { width: 0; height: 0; margin-right: 0; background: none; vertical-align: inherit; }
+
+dl.indent1 dd { margin-left: 1.5em; }
+dl.indent1 dt { margin-top: 15px; }
+
+.mb10 { margin-bottom: 10px; }

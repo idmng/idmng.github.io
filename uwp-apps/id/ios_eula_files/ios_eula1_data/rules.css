@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/* ====================================================== */
+/* [規約用cssファイル]                                     */
+/* ====================================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana,"游ゴシック",YuGothic,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+	font-weight: normal;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	margin: 0;
+	padding: 0 0 0;
+	color: #000000;
+	text-align: center;
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+p,li,dt,dd {
+	line-height: 140%;
+}
+p{
+	margin:10px 0;
+}
+
+.clr:after{
+	content: " ";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+}
+.clr { display: inline-block; }
+/* no ie mac \*/
+* html .clr{ height: 1%; }
+.clr{ display: block; }
+/* */
+
+h1.mkr-chaptitle,
+p.mkr-chaptitle {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h2.mkr-linetitle,
+h3.mkr-linetitle,
+h4.mkr-linetitle,
+p.mkr-linetitle,
+span.mkr-linetitle{
+	background: none;
+	padding: 2px 0 1px 0;	
+	line-height: 100%;
+/*	font-size: 80%;	*/
+	font-weight: bold;
+}
+
+*.sp-b35 {
+	margin-bottom: 35px !important;
+}
+
+.section{
+	margin:0 5px;
+}
+p,dd{
+background-color:#FFFFFF; /* android 対策 */
+}
+
+/* 規約ページ用*/
+div#block-rules{
+/* width:670px; */
+padding-bottom:10px;
+margin:0 auto;
+text-align:left;
+}
+div#block-rules dl.box-notice{
+padding:0;
+}
+div#block-rules dl.box-notice dt{
+margin:0;
+padding:5px 0;
+width:25px;
+float:left;
+}
+div#block-rules dl.box-notice dd{
+margin:0 0 0 25px;
+padding:5px 0;
+}
+div#block-rules dl.box-notice-square{
+padding:0;
+}
+div#block-rules dl.box-notice-square dt{
+margin:0;
+padding:5px 0;
+width:15px;
+float:left;
+}
+div#block-rules dl.box-notice-square dd{
+margin:0 0 0 15px;
+padding:5px 0;
+}
+div#block-rules dd.box-in-notice{
+padding:0;
+}
+div#block-rules dd.box-in-notice dl dt{
+margin:0;
+width:18px;
+padding:0 0 5px 0;
+float:left;
+}
+div#block-rules dd.box-in-notice dl dd{
+margin:0 0 0 18px;
+padding:0 0 5px 0;
+}
+div#block-rules dd.box-in-notice dl dt,
+div#block-rules dd.box-in-notice dl dd{
+font-size:100%!important;
+}
+div.box-rules dd.box-in-notice dl dd {
+	margin: 0 0 0 34px !important;
+	padding: 0 0 5px !important;
+}
+div .box-endmsg p{
+text-align:right;
+}
+
+.list{
+font-size: 16px !important;
+margin:0 0 0 18px;
+padding:0 0 5px 0;
+}
+
+.list li{
+padding:5px 0 0 0 !important;
+}
+
+
+/*追記1.20　規約ページ用　ここまで*/
+
+.attnList{
+margin:0 0 0 36px;
+padding:0 0 5px 0;
+}
+
+.attnList li{
+padding:5px 0 0 0 !important;
+list-style-type: none;
+}
+
+.attnList li:before {
+	content: '-';
+}
+
+/*追記2.8　attn1用*/
+
+div.box-rules dd.box-in-notice.circled dl dd {
+	margin: 0 0 0 25px !important;
+}
+
+/*追記2.9　ios_eula1用*/
