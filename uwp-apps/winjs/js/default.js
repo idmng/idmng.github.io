@@ -51,6 +51,9 @@
 	var serviceConnection = null;
 
 	function calcSum() {
+
+	    document.getElementById('result').innerHTML = 'start calcSum';
+
 	    var d = new Date();
 	    var key = 'calling sum ' + d.toISOString();
 	    console.time(key);
@@ -120,7 +123,7 @@
 	    connection.appServiceName = "IDimServiceAppService.CheckService";
 	    // The package family name (PFN) is available at Windows.ApplicationModel.Package.current.id.familyName API 
         // start the other app to get it and copy/paste here
-	    connection.packageFamilyName = "com.nttdocomo.windows.idmock";
+	    connection.packageFamilyName = "com.nttdocomo.windows.idmock_ecg5vnse950s6";
         
 	    return connection.openAsync().then(function(connectionStatus){
 	        if (connectionStatus == AppService.AppServiceConnectionStatus.success) {
