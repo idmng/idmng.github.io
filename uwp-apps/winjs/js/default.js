@@ -27,6 +27,9 @@
 	app.start();
 
 	WinJS.Utilities.ready(function () {
+
+	    document.getElementById('result').innerHTML = 'WinJS.Utilities.ready';
+
 	    var calcBtn = document.getElementById('btnCalc');
 	    calcBtn.addEventListener('click', function () {
 	        calcSum().then(function success(message) {
