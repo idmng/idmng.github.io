@@ -120,7 +120,7 @@
 	    connection.appServiceName = "IDimServiceAppService.CheckService";
 	    // The package family name (PFN) is available at Windows.ApplicationModel.Package.current.id.familyName API 
         // start the other app to get it and copy/paste here
-	    connection.packageFamilyName = "com.nttdocomo.windows.idmock_ecg5vnse950s6";
+	    connection.packageFamilyName = "com.nttdocomo.windows.idmock";
         
 	    return connection.openAsync().then(function(connectionStatus){
 	        if (connectionStatus == AppService.AppServiceConnectionStatus.success) {
