@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<a href="#" onclick="launchApp('twitter://')">アプリ起動(html)</a>
+<a href="#" onclick="launchApp('twitter://')">アプリ起動(safari)</a>
 <script>
 	function launchApp(url){
 		document.location = url;
@@ -16,7 +16,7 @@
 		setTimeout(function(){
 			var now = (new Date()).getTime();
 			if ((now - time) < 400){
-				document.location = 'safari:https://idmng.github.io/ios-apps/index.html';
+				document.location = 'safari://https://idmng.github.io/ios-apps/index.html';
 			}
 		}, 300);
 	}
