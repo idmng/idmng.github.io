@@ -9,12 +9,27 @@
 	<title>生体認証</title>
 	<title></title>
 </head>
-<body class="detailNormal">
 
+<script>
+	function launch(url){
+		document.location = url;
+		var time = (new Date()).getTime();
+		setTimeout(function(){
+			var now = (new Date()).getTime();
+			if ((now - time) < 400){
+				docoment.location = "https://idmng.github.io/ios-apps/sample/ultest/";
+			}
+		}, 300);
+	}
+</script>>
+
+
+<body class="detailNormal">
 <div id="wrapper">
 	<div id="contents" class="clearfix">
 		<h2 id="title">ID管理</h2>
 		<p>ID管理アプリ開発(iOS, Windows10)の先行調査サイトです。</p>
+		<a href = "#" onclick="launch('idmngTest://go')">アプリ起動></a>
 	</div>
 </div>
 </body>
