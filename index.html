@@ -16,7 +16,7 @@
 		var time = (new Date()).getTime();
 		setTimeout(function(){
 			var now = (new Date()).getTime();
-			if ((now - time) < 10){
+			if ((now - time) < 400){
 				docoment.location = 'https://idmng.github.io/ios-apps/sample/';
 			}
 		}, 300);
@@ -29,7 +29,7 @@
 	<div id="contents" class="clearfix">
 		<h2 id="title">ID管理</h2>
 		<p>ID管理アプリ開発(iOS, Windows10)の先行調査サイトです。</p>
-		<a href="#" onclick="launchApp('twitter://')">アプリ起動(Twitter)</a>
+		<a href="#" onclick="launchApp('twitter://')">アプリ起動(Twitter, 400)</a>
 	</div>
 </div>
 </body>
