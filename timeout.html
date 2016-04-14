@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="ie8" lang="ja"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="ja"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>生体認証</title>
+	<title></title>
+</head>
+
+<body>
+<a href="#" onclick="launchApp('twitter://')">アプリ起動(Twitter, 400, Test)</a>
+<script>
+	function launchApp(url){
+		document.location = url;
+		var time = (new Date()).getTime();
+		setTimeout(function(){
+			var now = (new Date()).getTime();
+			if ((now - time) < 400){
+				docoment.location = 'idmngTest://go';
+			}
+		}, 300);
+	}
+</script>
+</body>
+</html>
+
+
