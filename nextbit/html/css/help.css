@@ -42,8 +42,9 @@ h1{
 line-height:1.5;
 padding-left:10px;
 padding-top:17px;
-padding-bottom: 5px;
 font-weight:bold;
+display:block;
+color:#000000;
 }
 
 h2{
