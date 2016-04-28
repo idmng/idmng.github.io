@@ -11,7 +11,7 @@
 </head>
 
 <script>
-	function launchApp(){
+	function launchApp(url){
 		document.location = url;
 		var time = (new Date()).getTime();
 		setTimeout(function(){
@@ -27,7 +27,7 @@
 <div id="wrapper">
 	<div id="contents" class="clearfix">
 		<h2 id="title">WKWebView</h2>
-		<a href="#" onclick="launchApp()">Chromeアプリ起動</a>
+		<a href="#" onclick="launchApp('')">Chromeアプリ起動</a>
 	</div>
 </div>
 </body>
