@@ -3,12 +3,12 @@
 "apps":[],
 "details":[
    {
-	"appID": "J349XY2U25.com.nttdocomo.sample.ultest",
+	"appID": "J349XY2U25.com.nttdocomo.idmng.test",
 	"paths": ["/ios-apps/sample/*/", "/ios-apps/ultest/"]
    }
 ]
 },
 "webcredentials":{
-"apps": ["J349XY2U25.com.nttdocomo.sample.ultest"]
+"apps": ["J349XY2U25.com.nttdocomo.idmng.test"]
 }
 }
