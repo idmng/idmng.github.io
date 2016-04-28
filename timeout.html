@@ -3,14 +3,15 @@
 <!--[if gt IE 8]><!--> <html lang="ja"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="./css/11_reset.css" />
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
 	<title>生体認証</title>
 	<title></title>
 </head>
 
-<body>
-<a href="#" onclick="launchApp('twitter://')">アプリ起動(chrome2)</a>
 <script>
-	function launchApp(url){
+	function launchApp(){
 		document.location = url;
 		var time = (new Date()).getTime();
 		setTimeout(function(){
@@ -21,6 +22,14 @@
 		}, 300);
 	}
 </script>
+
+<body class="detailNormal">
+<div id="wrapper">
+	<div id="contents" class="clearfix">
+		<h2 id="title">WKWebView</h2>
+		<a href="#" onclick="launchApp()">Chromeアプリ起動</a>
+	</div>
+</div>
 </body>
 </html>
 
