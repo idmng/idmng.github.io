@@ -1,20 +1,16 @@
 {
 "applinks":{
-"apps":[],
-"details":[
-   {
-	"appID": "J349XY2U25.com.nttdocomo.idmng.test",
-	"paths": ["/ios-apps/sample/*/", "/ios-apps/ultest/"]
-   }
-]
+	"apps":[],
+	"details":[{
+		"appID": "J349XY2U25.com.nttdocomo.idmng.test",
+		"paths": ["/ios-apps/sample/*/", "/ios-apps/ultest/"]
+   	}]
 },
 "webcredentials":{
-"apps": ["J349XY2U25.com.nttdocomo.idmng.test"]
+	"apps": ["J349XY2U25.com.nttdocomo.idmng.test"]
 },
 "activitycontinuation":{
-    "apps": [
-      "J349XY2U25.com.nttdocomo.idmng.test"
-    ]
+    "apps": ["J349XY2U25.com.nttdocomo.idmng.test"]
 }
 }
  
